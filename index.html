@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="shortcut icon" href="assestss/logome.png" type="image/x-icon?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav id="home-nav">
+    <div class="logo">
+      <img src="assestss/logome.png" alt="Logo" />
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <img src="assestss/logome.png" alt="Logo" />
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="assestss/PicsArt_05-21-09.31.10-removebg.png" alt="John profile picture" />
+    </div>
+    <div class="skills__text">
+      <p class="skills__text__p1">Hello, I'm</p>
+      <h1 class="title">John Carlo Roxas</h1>
+      <p class="skills__text__p2">UI/UX Designer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assestss/CV.pdf')">
+          Download CV
+     </button>
+     
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="assestss/317750_linkedin_icon.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/john-carlo-d-r-roxas-571961272/'" />
+        <img src="assestss/1156638_github_media_social_icon.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/Jcrxs'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    
+    <div class="intro">
+      <p>Hello! I'm <b>John Carlo Roxas</b>, a passionate <b>UI/UX designer</b> and a <b>2nd year college student
+          pursuing a Bachelor of
+          Science in Information Technology at Polytechic University of the Philippines Sta. Maria Campus.</b> I strive
+        to create intuitive and visually appealing user experiences that blend aesthetics with functionality. Let's
+        connect and create exceptional designs together!
+      </p>
+      <div class="h1">Education</div>
+    </div>
+    
+    
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          
+          <div class="article-container">
+            
+            <div class="card">
+              <div class="details-container">
+                <img src="assestss/banga elem.jpg"Education icon" class="icon" />
+                <h3 class="h3">Primary</h3>
+                <p><b>Banga Elementary School</b><br />Banga 1st Plaridel, Bulacan<br />S.Y. 2008 - 2014</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="details-container">
+                <img src="assestss/lolomboy.png" alt="Education icon" class="icon" />
+                <h3 class="h3">Secondary</h3>
+                <p><b>Information Communication Technology (ICT)</b><br />Lolomboy National High School<br />Bunducan,
+                  Bocaue, Bulacan<br />S.Y. 2015 - 2019</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="details-container">
+                <img src="assestss/PUPLogo.png" alt="Education icon" class="icon" />
+                <h3 class="h3">Tertiary</h3>
+                <p><b>Bachelors of Science in Information Technology</b><br/>2nd year <br>Polytechnic University of the Philippines
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assestss/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+  <section id="skills">
+    <p class="skills__text__p1">Explore My</p>
+    <h1 class="title">TechnicalSkills</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Programming Languages</h2>
+          <div class="article-container">
+            <div class="card">
+              <img src="assestss/c-1.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/c--4.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/java-4.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JAVA</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/css-3.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/html-1.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Editing</h2>
+          <div class="article-container">
+            <div class="card">
+              <img src="assestss/adobe-photoshop-2.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Adobe PhotoShop</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/adobe-illustrator-cc-icon.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Adobe Illustrator</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/adobe-xd-2.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Adobe XD</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assestss/figma-5.svg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Figma</h3>
+                <p>Basics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <img src="./assestss/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="assestss/456095_circle_e-mail_email_letter_mail_icon.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:johncarloroxas0912@gmail.com">Email</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assestss/5296499_fb_facebook_facebook logo_icon.png" alt="Facebook icon" class="icon contact-icon email-icon" />
+        <p><a href="https://www.facebook.com/profile.php?id=100046060741586">Facebook</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assestss/317750_linkedin_icon.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assestss/logo-instagram-png-13572.png" alt="Instagram icon" class="icon contact-icon" />
+        <p><a href="https://www.instagram.com/joroxas_/">Instagram</a></p>
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  <footer>
+    <nav>
+      
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 John Carlo Roxas. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
