@@ -480,26 +480,3 @@ footer p {
 }
 
 
-
-#projects {
-  position: relative;
-}
-
-.project-container {
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: .9rem;
-  border-bottom: 5px solid rgb(37, 115, 183);
-  box-shadow: 0 4px 12px #aaaaaacc;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
-  flex: 1 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-.card-image {
-  width: 20rem; /* Set the width to fill the container */
-  height: auto; /* Adjust the height as needed */
-  border-radius: .9rem;
-}
